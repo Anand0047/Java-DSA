@@ -9,6 +9,7 @@ public class TwoSum_lc {
                 if (num[i]+num[k]==target){
                     indx1 =i;
                     indx2 =k;
+                    System.out.println();
                 }
             }
         }
