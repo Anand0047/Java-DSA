@@ -1,4 +1,4 @@
-public class Main{
+public class StaticExamplpe {
     String name = "Srm";
     void exam(){
         System.out.println("This is exam");
@@ -11,7 +11,7 @@ public class Main{
     }
     public static void main(String[] args) {
 //        System.out.println("Hello world");
-        Main obj = new Main();
+        StaticExamplpe obj = new StaticExamplpe();
         obj.exam();
         admin();
         obj.collgename();
