@@ -7,6 +7,7 @@ public class interfaceEx implements interf1,interf2,interf3{
     public static void main(String[] args) {
         interfaceEx obj = new interfaceEx();
         obj.method();
+
         interf2.method();
         interf3.methods3();
     }
