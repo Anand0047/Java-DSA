@@ -4,9 +4,9 @@ public class SelectionSort {
         int size = arr.length;
         int minIndx =-1;
         int temp =0;
-        for (int i =0;i< arr.length-1;i++){
+        for (int i =0;i<size-1;i++){
             minIndx =i;
-            for (int j =i;j< arr.length;j++){
+            for (int j =i+1;j<size;j++){
                 if (arr[minIndx]>arr[j]){
                     minIndx = j;
                 }
