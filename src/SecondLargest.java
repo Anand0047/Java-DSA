@@ -1,20 +1,17 @@
 public class SecondLargest {
     public static void main(String[] args) {
         int[] arr ={8,5,1,9,2,7};
-        int max =0 ;
-        int sec =0;
-        for (int i =0;i< arr.length;i++){
-            if (max<arr[i]){
-                max = arr[i];
-            }
-        }
+        int FirstMax =arr[0] ;
+        int SecondMax =arr[1];
 
-        for (int i =0;i< arr.length;i++){
-            if (sec!=max && sec<arr[i]){
-                sec = arr[i];
+        for (int i= 2;i<arr.length;i++){
+            if (arr[i]>FirstMax){
+                SecondMax = FirstMax;
+                FirstMax = arr[i];
+            } else if (arr[i] >SecondMax) {
+                SecondMax = arr[i];
             }
         }
-        System.out.println(max);
-        System.out.println(sec);
+        System.out.println(SecondMax);
     }
 }
