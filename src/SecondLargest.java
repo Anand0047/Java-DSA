@@ -1,6 +1,6 @@
 public class SecondLargest {
     public static void main(String[] args) {
-        int[] arr ={8,5,1,9,2,7};
+        int[] arr ={12,5,12};
         int FirstMax =arr[0] ;
         int SecondMax =arr[1];
 
