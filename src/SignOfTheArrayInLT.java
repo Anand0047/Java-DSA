@@ -16,7 +16,5 @@ public class SignOfTheArrayInLT {
         }else {
             return 0;
         }
-
-
     }
 }
