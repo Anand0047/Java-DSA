@@ -6,6 +6,7 @@ public class ArraySearchGFG {
             if (arr[i]==x){
                 System.out.println(i);
             }
+
         }
     }
 }
