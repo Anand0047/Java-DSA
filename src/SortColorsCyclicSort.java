@@ -7,6 +7,7 @@ public class SortColorsCyclicSort {
 
         int i =0;
         while(i<nums.length){
+
             int crt = nums[i];
             if (nums[i] != nums[crt]){
                 int temp = nums[i];
