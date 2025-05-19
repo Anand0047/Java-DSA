@@ -1,4 +1,4 @@
-class nextGreatestLetter {
+public class nextGreatestLetter {
     public static void main(String[] args) {
 
     }
