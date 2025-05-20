@@ -10,6 +10,7 @@ public class PowerXN_Leetcode {
         if (power < 0) {
             x = 1 / x;
             power = -power;
+
         }
 
         double result = 1.0;
