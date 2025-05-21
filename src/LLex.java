@@ -6,6 +6,7 @@ public class LLex {
         list.insertFirst(67);
         list.insertFirst(54);
         list.insertLast(99);
+        list.insert(100,3);
         list.display();
         System.out.println(list.size());
     }
