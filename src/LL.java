@@ -24,7 +24,7 @@ public class LL {
             System.out.print(temp.value + "--> ");
             temp = temp.next;
         }
-        System.out.println("END");
+        System.out.println("END ");
     }
 
 
