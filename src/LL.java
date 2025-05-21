@@ -18,6 +18,16 @@ public class LL {
         }
         size++;
     }
+    public void insertLast(int val){
+        if (tail == null){
+            insertFirst(val);
+            return;
+        }
+        Node node = new Node(val);
+        tail.next = node;
+        tail = node ;
+        size ++;
+    }
     public void display(){
         Node temp = head;
         while (temp != null ){
@@ -26,8 +36,9 @@ public class LL {
         }
         System.out.println("END ");
     }
-
-
+    public int size(){
+        return size;
+    }
     private class  Node {
                 private  int value ;
                 private Node next;
