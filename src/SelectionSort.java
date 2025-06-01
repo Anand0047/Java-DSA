@@ -15,10 +15,10 @@ public class SelectionSort {
             arr[i] = arr[minIndx];
             arr[minIndx] = temp;
             //------------------------for understanding-----------------
-            for (int n : arr){
-                System.out.print(n + " ");
-            }
-            System.out.println();
+//            for (int n : arr){
+//                System.out.print(n + " ");
+//            }
+//            System.out.println();
             //------------------------for understanding-----------------
 
         }
