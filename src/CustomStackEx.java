@@ -11,6 +11,8 @@ public class CustomStackEx {
         stack.push(83);
         stack.push(54);
         stack.push(623);
+        stack.display();
+        System.out.println("____________________________");
 
         System.out.println(stack.pop());
         System.out.println(stack.pop());
