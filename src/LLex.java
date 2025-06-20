@@ -1,7 +1,7 @@
 public class LLex {
     public static void main(String[] args) {
         LL list = new LL();
-        {
+        
             list.insertFirst(3);
             list.insertFirst(7);
             list.insertFirst(67);
@@ -18,7 +18,6 @@ public class LLex {
 //            System.out.println(list.getValueAt(0));
             System.out.println(list.deleteAt(2));
             list.display();
-        }
 
 
 
