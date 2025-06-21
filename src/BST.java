@@ -74,7 +74,6 @@ class BST {
     populatedSorted(nums, start, mid);
     populatedSorted(nums, mid + 1, end);
   }
-
   public boolean balanced() {
     return balanced(root);
   }
