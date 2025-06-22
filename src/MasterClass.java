@@ -15,12 +15,29 @@ public class MasterClass {
 //        StringBuilder sb2 = new StringBuilder(s2);
 //        System.out.println(sb.equals(sb2));
 
-            String[] st = {"flower","flow","flight"};
-        ArrayList<String> arr = new ArrayList<>(List.of(st));
-        System.out.println(longestCommonPrefix(st));
-        System.out.println(arr.isEmpty());
+
+
+
+//            String[] st = {"flower","flow","flight"};
+//        ArrayList<String> arr = new ArrayList<>(List.of(st));
+//        System.out.println(longestCommonPrefix(st));
+//        System.out.println(arr.isEmpty());
 
     }
+
+
+    public int removeElement(int[] nums, int val) {
+        ArrayList<Integer> al = new ArrayList<>();
+        for (int num : nums) {
+            al.add(num);
+        }
+        Object[] nsa = {3,2,2,3};
+        nsa = al.toArray();
+
+return 0;
+    }
+
+
     public static String longestCommonPrefix(String[] st) {
 
         String res ="";
