@@ -14,6 +14,8 @@ class BST {
     }
   }
 
+
+  int[] arr = new int[10];
   private Node root;
 
   public BST() {
@@ -26,7 +28,7 @@ class BST {
     }
     return node.height;
   }
-
+  
   public boolean isEmpty() {
     return root == null;
   }
