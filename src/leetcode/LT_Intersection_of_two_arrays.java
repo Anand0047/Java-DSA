@@ -19,7 +19,6 @@ public class LT_Intersection_of_two_arrays {
 
     // Two pointers apprch
     public int[] intersection3(int[] nums1, int[] nums2) {
-        // Sort both arrays for two pointer traversal
         Arrays.sort(nums1);
         Arrays.sort(nums2);
 
@@ -38,7 +37,6 @@ public class LT_Intersection_of_two_arrays {
             }
         }
 
-        // Convert set to array
         int[] res = new int[set.size()];
         int idx = 0;
         for (int num : set) {
