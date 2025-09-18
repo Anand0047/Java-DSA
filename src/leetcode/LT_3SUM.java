@@ -6,7 +6,7 @@ public class LT_3SUM {
     public static void main(String[] args) {
 
         int[] nums = {-1,0,1,2,-1,-4};
-        System.out.println(threeSum(nums));
+//        System.out.println(threeSum(nums));
         Scanner sc = new Scanner(System.in);
     }
 
@@ -78,6 +78,7 @@ public class LT_3SUM {
         Arrays.sort(nums); // sort first
         int n = nums.length;
         int res =0;
+
         for (int i = 0; i < n - 2; i++) {
             // skip duplicate elements for i
             if (i > 0 && nums[i] == nums[i - 1]) continue;
