@@ -23,6 +23,7 @@ public class LT_Intersection_of_two_arrays {
         Arrays.sort(nums2);
 
         int i = 0, j = 0;
+
         HashSet<Integer> set = new HashSet<>();
 
         while (i < nums1.length && j < nums2.length) {
