@@ -9,7 +9,7 @@ public class LT2300 {
 
     public int[] successfulPairs(int[] s, int[] p, long success) {
 
-
+//        Working but not working on the large Array
         ArrayList<Integer> res = new ArrayList<>();
         int counter = 0;
         for(int i =0;i<s.length;i++){
