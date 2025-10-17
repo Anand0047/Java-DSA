@@ -23,7 +23,7 @@ public class LT_CombiationSum39 {
         for (int i = start; i < candidates.length; i++) {
             temp.add(candidates[i]);
             backtrack(candidates, target - candidates[i], i, temp, res);
-            temp.remove(temp.size() - 1);
+            temp.removeLast();
         }
     }
 }

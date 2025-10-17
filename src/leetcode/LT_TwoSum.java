@@ -1,11 +1,19 @@
 package leetcode;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 
 public class LT_TwoSum {
     public static void main(String[] args) {
 
+        ArrayList<int[]> res = new ArrayList<>();
 
+
+    }
+
+    int sample(int samp){
+        Integer res = 0;
+        return res;
     }
 
     public int[] twoSum(int[] nums, int target) {
