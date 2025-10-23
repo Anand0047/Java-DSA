@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.List;
+
 class hello{
     int num =2;
     String str;
@@ -10,4 +13,8 @@ class hello{
            hello h= new hello();
            h.def();
     }
+
+    void sample(){
+        List<Integer> akak = new ArrayList<>();
+        }
 }
