@@ -1,10 +1,7 @@
 package leetcode;
 
-import com.sun.source.tree.Tree;
 
-import javax.swing.tree.TreeNode;
 
-//import static Graph.NumofProvincesGFG.dfs;
 
 public class LT_112_PathSum {
     public static void main(String[] args) {
