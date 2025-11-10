@@ -1,6 +1,6 @@
 package leetcode;
 import java.util.*;
-class Pair {
+ class Pair {
     int row;
     int col;
     int tm;
