@@ -21,7 +21,7 @@ public class ThreeSumMakesZero {
                 } else if (sum < 0) {
                     left++;
                 } else {
-                    right--;
+                    right++;
                 }
             }
         }
